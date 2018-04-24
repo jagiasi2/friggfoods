@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .responsive{
@@ -11,20 +12,22 @@
 
 .home-bg{
   position: fixed;
-  z-index: -1000;
+  z-index: -10;
   width: 100%;
   height: 100%;
   overflow: hidden;
   background: linear-gradient(to right, #9a1e38, #17024e);
 }
 
-video #home-bgvid {
+#home-bgvid {
   min-width: 100%;
   min-height: 100%;
   width:auto;
   height:auto;
   margin:0;
-  position: absolute;
+  position: fixed;
+  right:0 ;
+  bottom:0 ;
 }
 
 .main-logo {
